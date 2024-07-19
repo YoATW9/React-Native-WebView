@@ -2,11 +2,12 @@
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
->**Note**: This is a testing project for using React Native to build a webView application which available in both Android and iOS Platform
+This is a testing project for using React Native to build a webView application which available in both Android and iOS Platform
 
 ## Step 1: Install Dependencies
 
 To start, run the following command from the _root_ of your React Native project:
+
 
 ```bash
 # using npm
@@ -26,7 +27,7 @@ npx react-native start
 ### For Android
 
 ```bash
-# using npm
+# using npm 
 npx react-native run-android
 
 
