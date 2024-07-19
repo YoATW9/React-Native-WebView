@@ -10,11 +10,11 @@ To start, run the following command from the _root_ of your React Native project
 
 ```bash
 # using npm
-npm start
+npx react-native init webview 
 
-# OR using Yarn
-yarn start
-```
+# install inside the webview folder inited before
+npm install react-native-webview
+npm install react-native-linking  
 
 ## Step 2: Start your Application
 
@@ -33,6 +33,9 @@ npx react-native run-android
 ### For iOS
 
 ```bash
+# install in the ios folder first
+pod install     
+
 # using npm
 npx react-native run-ios
 
